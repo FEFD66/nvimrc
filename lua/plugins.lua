@@ -51,6 +51,7 @@ return packer.startup(function(use)
 --  use "akinsho/toggleterm.nvim"
 
   -- 配色
+  use "lunarvim/darkplus.nvim"
   use {"ellisonleao/gruvbox.nvim"}
 
   -- cmp
