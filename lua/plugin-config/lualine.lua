@@ -16,6 +16,6 @@ require'lualine'.setup {
     lualine_z = {}
   },
   tabline = {
-    lualine_z = {'branch', 'diff', 'diagnostics'}
+--    lualine_z = {'branch', 'diff', 'diagnostics'}
   }
 }

@@ -1,5 +1,6 @@
 local fn = vim.fn
 
+
 -- 自动安装packer
 local install_path = fn.stdpath "data" .. "/site/pack/packer/start/packer.nvim"
 if fn.empty(fn.glob(install_path)) > 0 then
@@ -48,8 +49,9 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua"
   use "nvim-lualine/lualine.nvim"
   use {"akinsho/bufferline.nvim",tag="v2.*"}
+  use "folke/which-key.nvim"
 
-  use "akinsho/toggleterm.nvim"
+  use {"akinsho/toggleterm.nvim",tag="v1.*"}
 
   -- 配色
   use "lunarvim/darkplus.nvim"
@@ -63,9 +65,6 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-vsnip" -- snippets completions
   use "hrsh7th/vim-vsnip" -- vsnip main function
   use "hrsh7th/cmp-nvim-lsp"
---  use "saadparwaiz1/cmp_luasnip" -- snippet completions
-  -- snippets
---  use "L3MON4D3/LuaSnip" --snippet engine
 --  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- LSP
@@ -73,6 +72,10 @@ return packer.startup(function(use)
 --  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
 --  use "simrat39/rust-tools.nvim"
 
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate"
+  }
   -- Telescope
 --  use "nvim-telescope/telescope.nvim"
 --

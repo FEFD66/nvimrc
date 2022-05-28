@@ -7,6 +7,9 @@ local packages={
   "autopairs",
   "lualine",
   "bufferline",
+  "whichkey",
+  "treesitter",
+  "toggleterm"
 }
 for _,pack in ipairs(packages) do
   -- print(_PACKAGE .. '.'..pack)
