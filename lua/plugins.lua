@@ -46,7 +46,8 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
---  use "akinsho/bufferline.nvim"
+  use "nvim-lualine/lualine.nvim"
+  use {"akinsho/bufferline.nvim",tag="v2.*"}
 
   use "akinsho/toggleterm.nvim"
 
@@ -60,6 +61,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "hrsh7th/cmp-vsnip" -- snippets completions
+  use "hrsh7th/vim-vsnip" -- vsnip main function
   use "hrsh7th/cmp-nvim-lsp"
 --  use "saadparwaiz1/cmp_luasnip" -- snippet completions
   -- snippets

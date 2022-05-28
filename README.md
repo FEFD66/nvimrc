@@ -13,8 +13,7 @@ OS: ArchLinux
 - dap
 
 --- 
-- lualine.lua
-- bufferline
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [nvimtree](https://github.com/kyazdani42/nvim-tree.lua)
 - whichKey
 - [toggleterm](https://github.com/akinsho/toggleterm.nvim)
