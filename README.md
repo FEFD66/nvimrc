@@ -1,0 +1,2 @@
+# nvimrc
+Neovim lua config
