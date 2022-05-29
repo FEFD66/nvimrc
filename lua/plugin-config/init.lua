@@ -9,7 +9,7 @@ local packages={
   "bufferline",
   "whichkey",
   "treesitter",
-  "toggleterm"
+  "toggleterm",
 }
 for _,pack in ipairs(packages) do
   -- print(_PACKAGE .. '.'..pack)
