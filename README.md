@@ -22,3 +22,5 @@ OS: ArchLinux
 - [toggleterm](https://github.com/akinsho/toggleterm.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [comments](https://github.com/numToStr/Comment.nvim)
+---
+- [vscode-lldb](https://github.com/vadimcn/vscode-lldb)
