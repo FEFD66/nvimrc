@@ -5,3 +5,5 @@ require 'lsp'
 require 'plugin-config'
 require 'dap-config'
 
+require 'keymaps'
+

@@ -21,7 +21,7 @@ local options = {
   -- 包含大写时大小写敏感
   smartcase = true,                        -- smart case
   -- 鼠标
-  mouse = "n",                             -- allow the mouse to be used in neovim
+  mouse = "nv",                             -- allow the mouse to be used in neovim
   pumheight = 10,                          -- pop up menu height
   -- 显示当前模式
   showmode = false,                        -- we don't need to see things like -- INSERT -- anymore

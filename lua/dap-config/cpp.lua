@@ -38,4 +38,12 @@ dap.configurations.rust = {
     cwd = '${workspaceFolder}',
     stopOnEntry = false,
   },
+  {
+    name = "Launch Release",
+    type ="lldb",
+    request = "launch",
+    program = "${workspaceFolder}/target/release/${workspaceFolderBasename}",
+    cwd = '${workspaceFolder}',
+    stopOnEntry = false,
+  },
 }
