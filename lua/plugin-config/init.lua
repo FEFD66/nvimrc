@@ -10,7 +10,8 @@ local packages={
   "whichkey",
   "treesitter",
   "toggleterm",
-  "colorscheme"
+  "colorscheme",
+  "trouble"
 }
 for _,pack in ipairs(packages) do
   -- print(_PACKAGE .. '.'..pack)
