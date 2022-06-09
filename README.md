@@ -2,6 +2,16 @@
 Neovim lua config
 OS: ArchLinux
 
+## TODO
+ - [ ] toggleTerm 多个终端切换
+ - [ ] 调试参数自定义
+ - [ ] gitsign
+ - [ ] comment
+
+## TODO for RUST
+ - [ ] Keymaps for RustCodeAction RustHoverAction
+
+
 ## 参考配置
 [Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch)
 
