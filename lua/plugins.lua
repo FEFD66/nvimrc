@@ -65,11 +65,12 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-vsnip" -- snippets completions
   use "hrsh7th/vim-vsnip" -- vsnip main function
   use "hrsh7th/cmp-nvim-lsp"
-  use {"tzachar/cmp-tabnine",run = "./install.sh"}
+  use {"tzachar/cmp-tabnine",run="./install.sh",requires='hrsh7th/nvim-cmp'}
 --  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
+  use "onsails/lspkind.nvim" -- pretty show for LSP
   use "folke/trouble.nvim"
   use "simrat39/rust-tools.nvim"
 --  use "williamboman/nvim-lsp-installer" -- simple to use language server installer

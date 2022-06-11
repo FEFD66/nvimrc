@@ -8,6 +8,7 @@ local packages={
   "lualine",
   "bufferline",
   "whichkey",
+  "comment",
   "treesitter",
   "toggleterm",
   "colorscheme",

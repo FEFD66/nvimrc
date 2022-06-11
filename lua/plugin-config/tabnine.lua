@@ -7,7 +7,7 @@ tabnine:setup({
 	snippet_placeholder = '..';
 	ignored_file_types = { -- default is not to ignore
 		-- uncomment to ignore in lua:
-		-- lua = true
+    lua = true
 	};
-	show_prediction_strength = false;
+	show_prediction_strength = true;
 })
