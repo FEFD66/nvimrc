@@ -65,6 +65,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-vsnip" -- snippets completions
   use "hrsh7th/vim-vsnip" -- vsnip main function
   use "hrsh7th/cmp-nvim-lsp"
+  use {"tzachar/cmp-tabnine",run = "./install.sh"}
 --  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- LSP

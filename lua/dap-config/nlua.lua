@@ -3,6 +3,11 @@ local dap = require'dap'
 dap.configurations.lua = {
  {
     type = 'nlua',
+    request = 'launch',
+    name = "Run this",
+  },
+ {
+    type = 'nlua',
     request = 'attach',
     name = "Attach to running Neovim instance",
     host = function()

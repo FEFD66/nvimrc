@@ -7,3 +7,5 @@ require 'dap-config'
 
 require 'keymaps'
 
+require('dap-configload')
+

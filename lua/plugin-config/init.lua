@@ -11,7 +11,8 @@ local packages={
   "treesitter",
   "toggleterm",
   "colorscheme",
-  "trouble"
+  "trouble",
+  "tabnine"
 }
 for _,pack in ipairs(packages) do
   -- print(_PACKAGE .. '.'..pack)
