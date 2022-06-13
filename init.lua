@@ -2,7 +2,7 @@ require 'basic'
 require 'plugins'
 
 require 'lsp'
-require 'plugin-config'
+require 'plugin-config'.setup(false)
 require 'dap-config'
 
 require 'keymaps'
